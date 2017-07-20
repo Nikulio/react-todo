@@ -4,6 +4,7 @@ $light-blue: #84ceeb;
 $blue : #5ab9ea;
 $mixed : #c1c8e4;
 $purple : #8860d0;
+$white: #fff;
 
 //Useful mixins for scss
 @mixin border-radius($radius) {
@@ -58,9 +59,7 @@ $purple : #8860d0;
 	position: absolute;
 }
 
-
-
-div, p, a, span, i, b {
+div, p, a, span, i, b, input {
 	font: 16px 'Open Sans', sans-serif;
 }
 i, em {

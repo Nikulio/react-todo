@@ -1,0 +1,30 @@
+div, p, a, span, i, b {
+  font: 16px 'Open Sans', sans-serif; }
+
+i, em {
+  font-style: italic; }
+
+b {
+  font-weight: bold; }
+
+h1 {
+  font-size: 68.797px; }
+
+h2 {
+  font-size: 47.776px; }
+
+h3 {
+  font-size: 33.178px; }
+
+.header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header .logo {
+    width: 50px; }
+  .header .brief {
+    color: #84ceeb;
+    font-size: 14px; }
+
+/*# sourceMappingURL=Header.css.map */

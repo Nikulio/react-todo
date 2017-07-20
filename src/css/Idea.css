@@ -1,0 +1,56 @@
+div, p, a, span, i, b, input {
+  font: 16px 'Open Sans', sans-serif; }
+
+i, em {
+  font-style: italic; }
+
+b {
+  font-weight: bold; }
+
+h1 {
+  font-size: 68.797px; }
+
+h2 {
+  font-size: 47.776px; }
+
+h3 {
+  font-size: 33.178px; }
+
+.user-idea {
+  margin-top: 20px; }
+  .user-idea input {
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-top: 50px;
+    font-size: 47.776px;
+    padding: 10px;
+    color: #5ab9ea;
+    border-bottom: 2px solid #c1c8e4;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transition: 0.3s all; }
+    .user-idea input:focus {
+      border-color: #5ab9ea; }
+    .user-idea input::-webkit-input-placeholder {
+      color: #c1c8e4; }
+    .user-idea input::-moz-placeholder {
+      color: #c1c8e4; }
+  .user-idea .buttons {
+    margin-top: 20px;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transition: 0.3s all;
+    text-align: center; }
+    .user-idea .buttons .button {
+      padding: 10px;
+      background: #84ceeb;
+      display: inline-block;
+      text-decoration: none;
+      color: #fff; }
+      .user-idea .buttons .button:first-of-type {
+        margin-right: 20px; }
+
+/*# sourceMappingURL=Idea.css.map */

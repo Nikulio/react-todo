@@ -1,0 +1,41 @@
+@import "common";
+.user-idea {
+	margin-top: 20px;
+	input {
+		width: 100%;
+		border: none;
+		outline: none;
+		margin-top: 50px;
+		font-size: 47.776px;
+		padding: 10px;
+		color: $blue;
+		border-bottom: 2px solid $mixed;
+		@include transition(.3s all);
+		&:focus {
+			border-color: $blue;
+		}
+		&::-webkit-input-placeholder {
+			color: $mixed;
+		}
+		&::-moz-placeholder {
+			color: $mixed;
+		}
+	}
+	.buttons {
+		//opacity: 0;
+		//visibility: hidden;
+		margin-top: 20px;
+		@include transition(.3s all);
+text-align: center;
+		.button {
+			padding: 10px;
+			background: $light-blue;
+			display: inline-block;
+			text-decoration: none;
+			color: $white;
+			&:first-of-type {
+				margin-right: 20px;
+			}
+		}
+	}
+}
