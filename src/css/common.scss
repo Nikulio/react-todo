@@ -1,0 +1,83 @@
+//colors
+$deep-blue : #5680E9;
+$light-blue: #84ceeb;
+$blue : #5ab9ea;
+$mixed : #c1c8e4;
+$purple : #8860d0;
+
+//Useful mixins for scss
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin box-shadow($shadow) {
+	-webkit-box-shadow: $shadow;
+	-moz-box-shadow: $shadow;
+	box-shadow: $shadow;
+}
+
+@mixin transition($args...) {
+	-webkit-transition: $args;
+	-moz-transition: $args;
+	-o-transition: $args;
+	transition: $args;
+}
+
+@mixin blur($args...) {
+	-webkit-filter: blur($args);
+	-moz-filter: blur($args);
+	-o-filter: blur($args);
+	filter: blur($args);
+}
+
+
+@mixin transform($transforms) {
+	-moz-transform: $transforms;
+	-o-transform: $transforms;
+	-ms-transform: $transforms;
+	-webkit-transform: $transforms;
+	transform: $transforms;
+}
+
+@mixin size($width, $height) {
+	width: $width;
+	height: $height;
+}
+
+@mixin position($top, $left) {
+	top: $top;
+	left: $left;
+}
+
+@mixin center() {
+	@include transform(translate(-50%,-50%));
+	top: 50%;
+	left: 50%;
+	position: absolute;
+}
+
+
+
+div, p, a, span, i, b {
+	font: 16px 'Open Sans', sans-serif;
+}
+i, em {
+	font-style: italic;
+}
+b {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 68.797px;
+}
+h2 {
+	font-size: 47.776px;
+}
+h3 {
+	font-size: 33.178px;
+}
+
+
