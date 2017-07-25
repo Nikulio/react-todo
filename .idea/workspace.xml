@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e855ee0f-48b9-4e38-94b8-3784c213dc2b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/componnets/Idea.js" afterPath="$PROJECT_DIR$/src/componnets/Idea.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/componnets/Notes.js" afterPath="$PROJECT_DIR$/src/componnets/Notes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/Idea.css" afterPath="$PROJECT_DIR$/src/css/Idea.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/Idea.css.map" afterPath="$PROJECT_DIR$/src/css/Idea.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/Idea.scss" afterPath="$PROJECT_DIR$/src/css/Idea.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/Notes.css" afterPath="$PROJECT_DIR$/src/css/Notes.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/Notes.css.map" afterPath="$PROJECT_DIR$/src/css/Notes.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/Notes.scss" afterPath="$PROJECT_DIR$/src/css/Notes.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,7 +26,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Idea.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Idea.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/componnets/Idea.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="409">
@@ -53,6 +44,19 @@
             <state relative-caret-position="203">
               <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="50">
+                <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -87,12 +91,12 @@
         <option value="$PROJECT_DIR$/src/componnets/Main.js" />
         <option value="$PROJECT_DIR$/src/css/Main.scss" />
         <option value="$PROJECT_DIR$/src/css/common.scss" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/componnets/Header.js" />
         <option value="$PROJECT_DIR$/src/css/Notes.scss" />
         <option value="$PROJECT_DIR$/src/componnets/Notes.js" />
         <option value="$PROJECT_DIR$/src/css/Idea.scss" />
         <option value="$PROJECT_DIR$/src/componnets/Idea.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -219,12 +223,12 @@
       <workItem from="1500539982569" duration="8234000" />
       <workItem from="1500709163112" duration="24000" />
       <workItem from="1500967983399" duration="4133000" />
-      <workItem from="1500974484667" duration="1659000" />
+      <workItem from="1500974484667" duration="1847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14050000" />
+    <option name="totallyTimeSpent" value="14238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="303" width="1280" height="777" extended-state="6" />
@@ -473,17 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -539,6 +532,17 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="50">
+            <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
