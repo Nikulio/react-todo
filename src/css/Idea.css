@@ -37,20 +37,34 @@ h3 {
       color: #c1c8e4; }
     .user-idea input::-moz-placeholder {
       color: #c1c8e4; }
-  .user-idea .buttons {
-    margin-top: 20px;
-    -webkit-transition: 0.3s all;
-    -moz-transition: 0.3s all;
-    -o-transition: 0.3s all;
-    transition: 0.3s all;
-    text-align: center; }
-    .user-idea .buttons .button {
-      padding: 10px;
-      background: #84ceeb;
-      display: inline-block;
-      text-decoration: none;
-      color: #fff; }
-      .user-idea .buttons .button:first-of-type {
-        margin-right: 20px; }
+
+.buttons {
+  opacity: 1;
+  visibility: visible;
+  margin-top: 20px;
+  -webkit-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all;
+  text-align: center; }
+  .buttons .button {
+    padding: 10px;
+    background: #84ceeb;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff; }
+    .buttons .button:first-of-type {
+      margin-right: 20px; }
+
+.data {
+  margin-top: 50px;
+  border: 2px solid #c1c8e4;
+  opacity: 1;
+  visibility: visible;
+  padding: 20px 10px;
+  -webkit-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all; }
 
 /*# sourceMappingURL=Idea.css.map */

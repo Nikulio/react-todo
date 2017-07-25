@@ -1,4 +1,5 @@
 @import "common";
+
 .user-idea {
 	margin-top: 20px;
 	input {
@@ -21,21 +22,31 @@
 			color: $mixed;
 		}
 	}
-	.buttons {
-		//opacity: 0;
-		//visibility: hidden;
-		margin-top: 20px;
-		@include transition(.3s all);
-text-align: center;
-		.button {
-			padding: 10px;
-			background: $light-blue;
-			display: inline-block;
-			text-decoration: none;
-			color: $white;
-			&:first-of-type {
-				margin-right: 20px;
-			}
+}
+
+.buttons {
+	opacity: 1;
+	visibility: visible;
+	margin-top: 20px;
+	@include transition(.3s all);
+	text-align: center;
+	.button {
+		padding: 10px;
+		background: $light-blue;
+		display: inline-block;
+		text-decoration: none;
+		color: $white;
+		&:first-of-type {
+			margin-right: 20px;
 		}
 	}
+}
+
+.data {
+	margin-top: 50px;
+	border: 2px solid $mixed;
+	opacity: 1;
+	visibility: visible;
+	padding: 20px 10px;
+	@include transition(.3s all);
 }
