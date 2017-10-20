@@ -1,20 +1,15 @@
-div, p, a, span, i, b {
-  font: 16px 'Open Sans', sans-serif; }
-
-i, em {
-  font-style: italic; }
-
-b {
-  font-weight: bold; }
-
-h1 {
-  font-size: 68.797px; }
-
-h2 {
-  font-size: 47.776px; }
-
-h3 {
-  font-size: 33.178px; }
+.main {
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .main .title {
+    font-weight: bold; }
+  .main .title, .main .sub-title {
+    color: #8860d0;
+    text-align: center; }
 
 .header {
   padding: 10px 20px;
@@ -26,5 +21,3 @@ h3 {
   .header .brief {
     color: #84ceeb;
     font-size: 14px; }
-
-/*# sourceMappingURL=Header.css.map */

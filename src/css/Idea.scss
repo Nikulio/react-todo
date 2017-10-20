@@ -1,4 +1,4 @@
-@import "common";
+@import "common.scss";
 
 .user-idea {
 	margin-top: 20px;
@@ -49,4 +49,8 @@
 	visibility: visible;
 	padding: 20px 10px;
 	@include transition(.3s all);
+}
+
+.notes {
+
 }

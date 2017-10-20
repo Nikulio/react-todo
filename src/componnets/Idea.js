@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import styles from '../css/Idea.css'
-
+import note_styles from '../css/Notes.css'
 
 
 class Idea extends Component {
@@ -23,14 +23,12 @@ class Idea extends Component {
 		this.setState({
 			visible: true,
 			userInput: e.target.value,
-		})
-		console.log(this.state.visible)
+		});
 	}
 
 	submitNote(e) {
 		let text = this.state.userInput;
-		let array = this.state.notesArray;
-		array.push(text);
+		this.state.notesArray.push(text);
 		this.setState({
 			userInput: '',
 		})
@@ -41,9 +39,18 @@ class Idea extends Component {
 	render() {
 
 		const notesPreview = [];
+
 		const notesArray = this.state.notesArray;
 		for (let i in notesArray) {
-			notesPreview.push(<div className="note-item">{notesArray[i]}</div>);
+			notesPreview.push(
+				<div className="note-item" id={"id-" + (Number(i) + 1)}>
+					<div className="note-number">{Number(i) + 1}</div>
+					<div className="note-text">{notesArray[i]}</div>
+					<a href="#" className="note-item-delete">
+						<i className="material-icons">close</i>
+					</a>
+				</div>
+			);
 		}
 
 		return (

@@ -1,3 +1,8 @@
-
-
-/*# sourceMappingURL=Notes.css.map */
+.notes .note-item {
+  color: #8860d0;
+  display: flex; }
+  .notes .note-item:nth-child(n+2) {
+    margin-top: 10px; }
+  .notes .note-item .note-item-delete {
+    margin-left: auto;
+    height: 16px; }

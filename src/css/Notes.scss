@@ -1,0 +1,15 @@
+@import "common.scss";
+
+.notes {
+	.note-item {
+		color: $purple;
+		display: flex;
+		&:nth-child(n+2) {
+			margin-top: 10px;
+		}
+		.note-item-delete {
+			margin-left: auto;
+			height: 16px;
+		}
+	}
+}
