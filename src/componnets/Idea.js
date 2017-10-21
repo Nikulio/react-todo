@@ -16,6 +16,7 @@ class Idea extends Component {
 		};
 
 		this.handleUserInput = this.handleUserInput.bind(this);
+		this.deleteNote = this.deleteNote.bind(this);
 		this.submitNote = this.submitNote.bind(this)
 	}
 
@@ -26,29 +27,29 @@ class Idea extends Component {
 		});
 	}
 
+	deleteNote(e) {
+		let text = this.state.userInput;
+		this.setState({
+			userInput: '',
+		})
+	}
+
 	submitNote(e) {
 		let text = this.state.userInput;
 		this.state.notesArray.push(text);
 		this.setState({
 			userInput: '',
 		})
-
 	}
 
-
 	render() {
-
-		const notesPreview = [];
-
-		const notesArray = this.state.notesArray;
-		for (let i in notesArray) {
-			notesPreview.push(
+		const notesStack = this.state.notesArray;
+		const notesPreview = [].reverse();
+		for (let i in notesStack) {
+			notesPreview.unshift(
 				<div className="note-item" id={"id-" + (Number(i) + 1)}>
 					<div className="note-number">{Number(i) + 1}</div>
-					<div className="note-text">{notesArray[i]}</div>
-					<a href="#" className="note-item-delete">
-						<i className="material-icons">close</i>
-					</a>
+					<div className="note-text">{notesStack[i]}</div>
 				</div>
 			);
 		}
@@ -67,12 +68,14 @@ class Idea extends Component {
 				<div>
 					<div className="buttons">
 						<a href="#" onClick={this.submitNote} className="button">Save</a>
-						<a href="#" className="button">Delete</a>
+						<a href="#" onClick={this.deleteNote} className="button">Delete</a>
 					</div>
 					<div className="data">
+						{this.state.userInput &&
 						<div className="preview">
 							{this.state.userInput}
 						</div>
+						}
 						<div className="notes">
 							{notesPreview}
 						</div>

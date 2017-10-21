@@ -7,9 +7,15 @@
 		&:nth-child(n+2) {
 			margin-top: 10px;
 		}
+		.note-number {
+			color: $deep-blue;
+			font-weight: bold;
+			margin-right: 10px;
+		}
 		.note-item-delete {
 			margin-left: auto;
 			height: 16px;
+			color: red;
 		}
 	}
 }

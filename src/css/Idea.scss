@@ -51,6 +51,9 @@
 	@include transition(.3s all);
 }
 
-.notes {
-
+.preview {
+	font-style: italic;
+	margin-bottom: 20px;
+	font-size: 18px;
+	color: $purple;
 }

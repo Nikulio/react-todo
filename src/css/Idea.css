@@ -48,3 +48,9 @@
   -moz-transition: 0.3s all;
   -o-transition: 0.3s all;
   transition: 0.3s all; }
+
+.preview {
+  font-style: italic;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #8860d0; }
